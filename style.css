@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "ruth";
+  src: url("./fonts/Runethia.otf");
+}
+
+body {
+  /* background-color: #E5E5F7;
+opacity: 0.8;
+background: repeating-linear-gradient(30deg, #E5E5F7 0px, #E5E5F7 15px, #444CF7 15px, #444CF7 30px, #22D1EE 30px, #22D1EE 45px, #444CF7 45px, #444CF7 60px); */
+  background:
+    linear-gradient(80deg, rgb(175, 202, 52), rgb(209, 73, 107)),
+    url(https://grainy-gradients.vercel.app/noise.svg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "ruth";
+  margin: 2px;
+}
+
+h2 {
+  margin: 5px;
+}
+
+#card {
+  background-color: black;
+  color: antiquewhite;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+  max-width: 70vw;
+  transform: perspective(400px) rotateY(15deg);
+}
+
+#container{
+        display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+  min-height: 100vh;
+}
